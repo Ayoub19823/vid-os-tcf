@@ -1,4 +1,4 @@
-# Vidéo quotidienne — simulation TCF Canada, expression orale (procédure)
+# Vidéo quotidienne — TCF Canada, expression orale + expression écrite (procédure)
 
 Objectif : chaque jour, une vidéo publiée sur YouTube à **19 h 00, heure de Casablanca** (fuseau Metricool `Africa/Casablanca`),
 sur un sujet d'actualité **tiré au hasard** parmi ceux qui n'ont pas encore de vidéo, puis reliée à son sujet sur le site.
@@ -9,10 +9,15 @@ Langue de travail : français. On s'adresse à Ayoub (fondateur de formation-tcf
 2. Vérifier dans Metricool (brand `7353654`, `getScheduledPosts` sur la journée, fuseau `Africa/Casablanca`) qu'il n'y a pas
    **déjà** une vidéo YouTube prévue à 19 h aujourd'hui. Si oui : ne rien produire, juste faire le compte rendu.
 
-## 1. Choisir le sujet
+## 0 bis. Rotation sur 4 jours (règle d'Ayoub)
+`(date_du_jour − 2026-10-29).days % 4` → **0 = Expression orale Tâche 2**, **1 = Expression orale Tâche 3**,
+**2 = Expression écrite Tâche 1 (exercice corrigé)**, **3 = Expression écrite Tâche 2 (exercice corrigé)**.
+(29/10 EO T2, 30/10 EO T3, 31/10 EE T1, 01/11 EE T2, 02/11 EO T2, …). Expression orale : sections 1 à 6. Expression écrite : section 8.
+
+## 1. Choisir le sujet (expression orale)
 - `cd /home/claude/pipe && MOIS="<mois-courant>,<mois-précédent>" node pick.js > sujets.json`
   (ex. `MOIS="novembre-2026,octobre-2026"`). Le mois courant d'abord : n'utiliser le mois précédent que si tout le mois courant a déjà sa vidéo.
-- Exclure `video: true` et les sujets déjà présents dans `pipeline/historique.csv`. Tirer au hasard (Tâche 2 ou 3).
+- Exclure `video: true` et les sujets déjà présents dans `pipeline/historique.csv`. Tirer au hasard parmi les sujets de la tâche imposée par la rotation.
 
 ## 2. Écrire le scénario — `/home/claude/v24/scen_<AAAAMMJJ>.py`
 Modèle complet : `pipeline/v24/scen_daily.py` (`rodrigue` = Tâche 3, `yannick` = Tâche 2). Copier la structure à l'identique.
@@ -56,12 +61,35 @@ Vérifier le découpage (`robust` dans `/home/claude/t3/segs.py`) ; si une prise
    - youtubeData : privacy public, category EDUCATION, madeForKids false, isAiGeneratedContent true,
      tags [TCF Canada, expression orale, tâche <t>, simulation TCF, sujets <mois> <année>, PACK AYOUB, immigration Canada].
    - Limite YouTube/Metricool : 20 publications / 24 h glissantes (une publication en erreur compte aussi).
-3. Ajouter une ligne à `pipeline/historique.csv` (lie_site = non), commit + push.
+3. Ajouter une ligne à `pipeline/historique.csv` (lie_site = non, epreuve = EO), commit + push.
 
 ## 6. Liaison sur le site (tâche séparée, sur l'ordinateur d'Ayoub)
 Après 19 h (Casablanca) : récupérer l'URL YouTube dans Metricool, puis dans Chrome (Claude in Chrome)
 `https://www.formation-tcfcanada.com/admin/oral-topics/videos` → carte du sujet → champ « https://www.youtube.com/watch?v=… » →
 Enregistrer → attendre « Vidéo liée à N apparitions ». Mettre `lie_site = oui` et l'URL dans `historique.csv`.
+
+## 8. Expression écrite — « exercice corrigé » (Tâches 1 et 2)
+1. Sujet : page `https://www.formation-tcfcanada.com/epreuve/expression-ecrite/sujets-actualites/<mois-slug>` (« Combinaison N », 3 tâches chacune).
+   Tirer une combinaison au hasard dans le mois courant (pas déjà dans `historique.csv` pour cette tâche), puis capturer :
+   `cd /home/claude/v24 && MSLUG=<mois> COMBI=<n> TACHE=<1|2> CAPDIR=cap_<mois>_C<n>_EE<t> node capEE.js` → affiche le texte exact du sujet.
+2. Écrire `/home/claude/work/<cle>/spec.json` — modèles complets : `pipeline/ee/samir_spec.json` (T1) et `pipeline/ee/aicha_spec.json` (T2).
+   - `copie` : copie réaliste d'un candidat (prénom d'Afrique francophone / Maghreb) avec **4 à 5 erreurs typiques** notées `[[faux|juste|raison courte]]`.
+     T1 (message court) : 60–120 mots, copie ≈ 75–100 mots ; T2 (narration) : 120–150 mots, copie ≈ 120–135 mots. **La copie doit respecter la limite de mots.**
+   - `modele` : version corrigée découpée en 6–7 parties `[étiquette ≤ 12 caractères, texte]`, T1 ≈ 100–115 mots, T2 ≈ 135–145 mots.
+   - `points` (5), `mots_cles` (mots exacts de la consigne), `vocab` (6), `bilan` (3 blocs × 3 items), `thumb` « LIGNE1|EXERCICE CORRIGÉ », `titre_court`.
+3. Voix (Corentin uniquement) :
+   - `spec.wav` : « On ouvre la combinaison <n en lettres> du mois de <mois>, puis la tâche <un|deux>. » + pause + « Le sujet du jour : … »
+   - `body.wav` : **6 + nb_erreurs** segments séparés par ` [long pause] [long pause] ` : consigne (mots-clés), 5 points + limites de mots,
+     présentation de la copie, une phrase par erreur (dans l'ordre), structure du modèle (+ nombre de mots exact à ±5), vocabulaire, bilan + conseil.
+     On s'adresse au public avec « vous ». Les narrations génériques sont déjà dans `pipe/narr/generic_EE_T1.wav` / `generic_EE_T2.wav`.
+   Vérifier le découpage avec `robust()` ; prendre l'autre prise si besoin.
+4. `cd /home/claude/v24 && ./ee_make.sh <cle> TCF_ExpressionEcrite_T<t>_<Mois>_C<n>_<Prénom>_<Sujet>` (≈ 7 min). Contrôler des images (intro, site, consigne, erreur, modèle, bilan) et la miniature.
+5. Publication Metricool identique à la section 5, mais :
+   - Titre (≤ 100 caractères) : `TCF Canada Expression écrite Tâche <t> : « <titre court> » — Exercice corrigé <mois> <année>`
+   - Texte : « EXPRESSION ÉCRITE — TCF Canada, Tâche <t> (<Message court|Narration>). Sujet réel de <mois> <année> (Combinaison <n>) : « <sujet> » » +
+     paragraphe (copie de <prénom> analysée, erreurs corrigées, version modèle, vocabulaire, bilan) + phrase 🎯 habituelle +
+     `#TCFCanada #ExpressionEcrite #TCF #Immigration #Canada` ; tags [TCF Canada, expression écrite, tâche <t>, exercice corrigé, sujets <mois> <année>, PACK AYOUB, immigration Canada].
+6. `historique.csv` : `partie` = n° de combinaison, `sujet` = vide, `epreuve` = EE, `lie_site` = **na** (la page admin ne relie que l'oral).
 
 ## 7. Compte rendu à Ayoub
 Sujet choisi, candidat, heure de publication, lien de la vidéo (ou heure prévue), miniature ; signaler tout problème.

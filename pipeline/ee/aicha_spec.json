@@ -1,0 +1,88 @@
+{
+ "task": 2,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 4,
+ "mini": 120,
+ "maxi": 150,
+ "consigne": "Vous avez participé à un événement qui vous a marqué (anniversaire, mariage, etc.). Racontez votre souvenir en décrivant ce qui vous a le plus marqué.",
+ "mots_cles": [
+  "participé",
+  "événement",
+  "marqué",
+  "racontez",
+  "souvenir",
+  "décrivant"
+ ],
+ "points": [
+  "Situer l'événement (quand, où, qui)",
+  "Raconter au passé (passé composé / imparfait)",
+  "Décrire l'ambiance et les détails",
+  "Expliquer ce qui vous a le plus marqué",
+  "Conclure avec vos sentiments"
+ ],
+ "copie": "L'été dernier, j'ai assisté au mariage de ma cousine Fatou à Dakar. C'était une journée inoubliable. Il y avait plus de deux cents invités. [[Quand je suis arrivé|Quand je suis arrivée|Avec « être », le participe passé s'accorde : « arrivée »]] dans la salle, la musique était très forte et tout le monde dansait joyeusement. La mariée portait une magnifique robe traditionnelle brodée d'or. Nous avons dansé pendant des heures, [[après on a mangé|ensuite nous avons dîné|À l'écrit, variez les connecteurs et préférez « nous » à « on »]] un thiéboudienne délicieux. [[Soudain, ma grand-mère prenait le micro|Soudain, ma grand-mère a pris le micro|Action soudaine et ponctuelle : passé composé, pas imparfait]] et elle a chanté une vieille chanson de son village natal. [[Tout les invités|Tous les invités|Devant « les invités », on écrit « tous » au pluriel]] se sont levés pour applaudir, et ma cousine pleurait de joie. Ce qui m'a le plus marquée, c'est cette émotion partagée entre trois générations. Aujourd'hui encore, [[je me rappelle de ce jour|je me souviens de ce jour|« Se souvenir de » ou « se rappeler quelque chose », sans « de »]] avec beaucoup de tendresse et de nostalgie.",
+ "modele": [
+  [
+   "Contexte",
+   "L'été dernier, j'ai assisté au mariage de ma cousine Fatou à Dakar. C'était une journée vraiment inoubliable."
+  ],
+  [
+   "Arrivée",
+   "Quand je suis arrivée dans la salle, la musique résonnait déjà et tout le monde dansait. La mariée portait une magnifique robe traditionnelle brodée d'or. Il y avait plus de deux cents invités, venus de tout le Sénégal."
+  ],
+  [
+   "Déroulement",
+   "Nous avons dansé pendant des heures, puis nous avons dîné : un thiéboudienne délicieux, préparé par les tantes de la famille."
+  ],
+  [
+   "Moment fort",
+   "Soudain, ma grand-mère a pris le micro et a chanté une vieille chanson de son village. Tous les invités se sont levés pour l'applaudir, et ma cousine pleurait de joie."
+  ],
+  [
+   "Émotion",
+   "Ce qui m'a le plus marquée, c'est cette émotion partagée entre trois générations, réunies autour des mêmes souvenirs."
+  ],
+  [
+   "Conclusion",
+   "Aujourd'hui encore, je me souviens de ce jour avec beaucoup de tendresse. Je m'en souviendrai toute ma vie."
+  ]
+ ],
+ "vocab": [
+  "un souvenir inoubliable",
+  "l'ambiance était chaleureuse",
+  "tout à coup / soudain",
+  "pleurer de joie",
+  "ce qui m'a le plus marqué(e)",
+  "je m'en souviendrai toute ma vie"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Récit clair et chronologique",
+    "Passé composé et imparfait bien utilisés",
+    "Détails concrets et émotion bien exprimée"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Accord du participe passé avec « être »",
+    "Éviter « on » et « après » à l'écrit",
+    "Ne pas confondre « tout » et « tous »"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Situez l'événement dès la première phrase",
+    "Passé composé pour les actions, imparfait pour le décor",
+    "Visez 130 à 140 mots pour être tranquille"
+   ]
+  ]
+ ],
+ "titre_court": "Raconter un événement marquant",
+ "thumb": "UN SOUVENIR MARQUANT|EXERCICE CORRIGÉ",
+ "prenom": "Aïcha"
+}

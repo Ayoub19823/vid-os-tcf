@@ -22,7 +22,7 @@ def ob(v, c=1.6):
     v = clamp(v); return 1 + (c + 1) * (v - 1) ** 3 + c * (v - 1) ** 2
 def A(c, a): return tuple(c[:3]) + (int(255 * clamp(a)),)
 
-P = json.load(open(sys.argv[1])); T = P['t']; DUR = P['dur']; VOC = P['voc']; DIGIT = P.get('digit', '2')
+P = json.load(open(sys.argv[1])); T = P['t']; DUR = P['dur']; VOC = P['voc']; DIGIT = P.get('digit', '2'); EEM = P.get('mode') == 'EE'
 
 # ---------- animated mesh-gradient background (computed at low res)
 lw, lh = 192, 108
@@ -113,7 +113,7 @@ def scene_a(t):
     # kicker
     kk = eo((t - T['simulation']) / 0.5)
     if kk > 0:
-        f = F(BD, 28); txt = "NOUVELLE SIMULATION"; tw = f.getlength(txt)
+        f = F(BD, 28); txt = "EXERCICE CORRIGÉ" if EEM else "NOUVELLE SIMULATION"; tw = f.getlength(txt)
         x0 = 150; y0 = 470 + 40
         d.rounded_rectangle([x0, y0, x0 + (tw + 48) * kk, y0 + 54], 27, fill=A(FLAG, 1))
         if kk > 0.7: d.text((x0 + 24, y0 + 27), txt, font=f, fill=A(WHITE, (kk - 0.7) / 0.3), anchor='lm')
@@ -138,8 +138,8 @@ def scene_a(t):
     ke = eo((t - T['expression']) / 0.9)
     if ke > 0:
         f = F(BL, 74); trk = 40 * (1 - ke)
-        text_rise(L, (150, 760), "EXPRESSION ORALE", f, INK, T['expression'], t, stagger=0.025, track=trk)
-        stroke_line(d, (152, 790), (152 + 760, 790), clamp((t - T['orale']) / 0.6), A(SKY, 1), 10)
+        text_rise(L, (150, 760), "EXPRESSION ÉCRITE" if EEM else "EXPRESSION ORALE", f, INK, T['expression'], t, stagger=0.025, track=trk)
+        stroke_line(d, (152, 790), (152 + F(BL, 74).getlength("EXPRESSION ÉCRITE" if EEM else "EXPRESSION ORALE") - 4, 790), clamp((t - T['orale']) / 0.6), A(SKY, 1), 10)
     # TCF CANADA with red wipe
     kw = eio((t - T['tcf']) / 0.5)
     if kw > 0:
@@ -174,7 +174,7 @@ def scene_b(t):
         a = 1 - move; y = 720; x0, x1 = 150, 1300
         kt = clamp((t - T['deroulement'] - 0.2) / 1.6)
         stroke_line(d, (x0, y), (x1, y), kt, A(SKY, a), 6)
-        for i, lab in enumerate((["Donner son avis", "Argumenter", "Nuancer", "Conclure"] if DIGIT == "3" else ["Saluer", "Poser les questions", "Réagir", "Conclure"])):
+        for i, lab in enumerate((["Lire la consigne", "Rédiger", "Corriger", "Améliorer"] if EEM else ["Donner son avis", "Argumenter", "Nuancer", "Conclure"] if DIGIT == "3" else ["Saluer", "Poser les questions", "Réagir", "Conclure"])):
             q = i / 3; kx = clamp((kt - q * 0.95) / 0.12)
             if kx > 0:
                 x = x0 + (x1 - x0) * q; r = 18 * ob(kx, 2)
@@ -183,7 +183,7 @@ def scene_b(t):
     # three words slam in
     if t > T['themes'] - 0.1:
         f = F(BL, 120); xs = 150
-        for i, (key, word, col) in enumerate([('themes', "ARGUMENTS" if DIGIT == "3" else "THÈMES", ROYAL), ('sujets', "SUJETS", SKY), ('vocabulaire', "VOCABULAIRE", FLAG)]):
+        for i, (key, word, col) in enumerate([('themes', "MÉTHODE" if EEM else "ARGUMENTS" if DIGIT == "3" else "THÈMES", ROYAL), ('sujets', "SUJETS", SKY), ('vocabulaire', "VOCABULAIRE", FLAG)]):
             cy = 540 + i * 150
             tw = f.getlength(word)
             slam(L, (xs + tw / 2, cy), word, f, col if i != 1 else INK, T[key], t)

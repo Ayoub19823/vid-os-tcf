@@ -66,7 +66,7 @@ logoanim.THEME='dark' if VAR=='dark' else 'light'
 lg=logoanim.static_logo(100 if VAR=='light' else 96,glow=(VAR=='dark')); img.alpha_composite(lg,(18 if VAR=='dark' else 30, 4 if VAR=='dark' else 14))
 SUBJ = sys.argv[4].split('|') if len(sys.argv) > 4 else None
 if SUBJ:
-    fe=F(BL,40); te="EXPRESSION ORALE"; tew=fe.getlength(te)
+    fe=F(BL,40); te="EXPRESSION ÉCRITE" if __import__("os").environ.get("EPR")=="EE" else "EXPRESSION ORALE"; tew=fe.getlength(te)
     d.rounded_rectangle([34,150,34+tew+44,206],radius=16,fill=FLAG); d.text((56,178),te,font=fe,fill='white',anchor='lm')
     stroke_text(d,(34,262),("TÂCHE "+__import__("os").environ.get("TASKN","2")),F(BL,100),TXT,9,ST)
     f2=F(BL,58); ws=[f2.getlength(t) for t in SUBJ]; bw=max(ws)+40
@@ -84,7 +84,9 @@ else:
 bx,by,br=118,570,74
 d.ellipse([bx-br-8,by-br-8,bx+br+8,by+br+8],fill=(255,255,255))
 d.ellipse([bx-br,by-br,bx+br,by+br],outline=(225,232,250),width=14); d.arc([bx-br,by-br,bx+br,by+br],-90,200,fill=FLAG,width=14)
-d.text((bx,by),(sys.argv[3] if len(sys.argv) > 3 else "3:50"),font=F(BL,50),fill=INK,anchor='mm')
+_ct=(sys.argv[3] if len(sys.argv) > 3 else "3:50"); _fs=50
+while F(BL,_fs).getlength(_ct) > 118 and _fs > 30: _fs -= 2
+d.text((bx,by),_ct,font=F(BL,_fs),fill=INK,anchor='mm')
 tg="+ CORRECTIONS"; ft=F(BD,32); tw=ft.getlength(tg)
 d.rounded_rectangle([222,540,222+tw+44,600],radius=30,fill=FLAG); d.text((244,570),tg,font=ft,fill='white',anchor='lm')
 # arrow from tag to correction line on card

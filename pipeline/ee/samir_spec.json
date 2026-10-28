@@ -1,0 +1,93 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 4,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Votre ami souhaite commencer à faire du sport. Rédigez un message pour lui recommander une salle de sport située dans votre quartier (localisation, tarifs, types d’activités, etc.).",
+ "mots_cles": [
+  "ami",
+  "recommander",
+  "salle",
+  "quartier",
+  "localisation",
+  "tarifs",
+  "activités"
+ ],
+ "points": [
+  "Saluer votre ami (tutoiement)",
+  "Présenter la salle et son adresse",
+  "Donner les tarifs",
+  "Décrire les activités proposées",
+  "Faire une proposition et signer"
+ ],
+ "copie": "Salut Karim, [[J'ai entendu que tu veux|J'ai appris que tu voulais|Après un verbe au passé, on accorde le temps : « voulais »]] commencer le sport, c'est une très bonne idée ! Je te conseille la salle « Forme Plus », [[elle se situe dans la rue des Érables,|elle se situe rue des Érables,|Avec « se situer », on écrit « rue des Érables », sans « dans la »]] à cinq minutes de chez moi. [[Les tarifs sont pas chers|Les tarifs ne sont pas chers|À l'écrit, la négation garde toujours le « ne »]] : trente dollars par mois. [[Il y a beaucoup des activités|Il y a beaucoup d'activités|Après « beaucoup », on utilise « de » ou « d' »]] : musculation, yoga, natation et cours de boxe. Les coachs sont gentils. Si tu veux, on peut y aller ensemble samedi, [[appelle moi !|appelle-moi !|À l'impératif, on met un trait d'union : « appelle-moi »]] À bientôt, Samir",
+ "modele": [
+  [
+   "Salutation",
+   "Salut Karim,"
+  ],
+  [
+   "Introduction",
+   "J'ai appris que tu voulais te remettre au sport : excellente idée ! Je te recommande « Forme Plus », la salle où je vais depuis plus d'un an."
+  ],
+  [
+   "Localisation",
+   "Elle se trouve rue des Érables, juste à côté du métro, à deux pas de chez toi."
+  ],
+  [
+   "Tarifs",
+   "L'abonnement mensuel coûte trente dollars, et le premier cours d'essai est gratuit."
+  ],
+  [
+   "Activités",
+   "Il y a de la musculation, du yoga, de la natation et même des cours de boxe le soir. Les coachs sont très sympas et conseillent bien les débutants. Ça vaut vraiment le coup !"
+  ],
+  [
+   "Proposition",
+   "Si ça t'intéresse, on peut y aller ensemble samedi matin pour un premier essai. Appelle-moi !"
+  ],
+  [
+   "Signature",
+   "À bientôt, Samir"
+  ]
+ ],
+ "vocab": [
+  "se remettre au sport",
+  "un abonnement mensuel",
+  "un cours d'essai gratuit",
+  "à deux pas de chez toi",
+  "les horaires d'ouverture",
+  "ça vaut vraiment le coup"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Toutes les informations demandées sont présentes",
+    "Ton amical et registre adapté (tutoiement)",
+    "Longueur respectée : entre 60 et 120 mots"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Garder le « ne » de la négation à l'écrit",
+    "Soigner la concordance des temps",
+    "Varier le vocabulaire (sympa, génial, efficace…)"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Gardez 2 minutes pour vous relire",
+    "Comptez vos mots avant de valider",
+    "Terminez par une proposition et une signature"
+   ]
+  ]
+ ],
+ "titre_court": "Recommander une salle de sport",
+ "thumb": "SALLE DE SPORT|EXERCICE CORRIGÉ",
+ "prenom": "Samir"
+}

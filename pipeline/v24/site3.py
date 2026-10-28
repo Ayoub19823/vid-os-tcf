@@ -45,8 +45,10 @@ CW, CH = 1472, 828
 WX, WY = (W - CW) // 2, 196            # content top-left
 BAR = 46
 MOIS = os.environ.get("MOIS", "Octobre 2026"); MSLUG = MOIS.lower().replace(" ", "-").replace("é", "e").replace("û", "u")
-URL = "formation-tcfcanada.com/epreuve/expression-orale/sujets-actualites/" + MSLUG
-TACHE = os.environ.get("TACHE", "2"); TLAB = {"2": "Tâche 2 · Interaction orale", "3": "Tâche 3 · Argumentation"}[TACHE]
+EE = os.environ.get("MODE") == "EE"
+EPR = "expression-ecrite" if EE else "expression-orale"; EPL = "Expression écrite" if EE else "Expression orale"; UNIT = "Combinaison" if EE else "Partie"
+URL = "formation-tcfcanada.com/epreuve/" + EPR + "/sujets-actualites/" + MSLUG
+TACHE = os.environ.get("TACHE", "2"); TLAB = ({"1": "Tâche 1 · Message court", "2": "Tâche 2 · Narration", "3": "Tâche 3 · Argumentation"} if os.environ.get("MODE") == "EE" else {"2": "Tâche 2 · Interaction orale", "3": "Tâche 3 · Argumentation"})[TACHE]
 def window_layer():
     L = Image.new('RGBA', (W, H)); d = ImageDraw.Draw(L)
     sh = Image.new('RGBA', (W, H)); ImageDraw.Draw(sh).rounded_rectangle([WX - 2, WY - BAR + 14, WX + CW + 2, WY + CH + 18], 18, fill=(20, 27, 77, 70))
@@ -160,7 +162,7 @@ chip, hdr, t2 = J['chip'], J['hdr'], J['t2']
 btn, cor, card, txt = J['btn'], J['cor'], J['card'], J['text']['r']
 ZC = ((card[0] + card[2]) / 2, (card[1] + card[3]) / 2 - 10, 1.22)
 NB, ND = len(glob.glob(CAP + 'B*.png')), len(glob.glob(SD + 'D*.png'))
-TITLE = ("Le sujet, directement sur la plateforme", "formation-tcfcanada.com  ·  Expression orale  ·  " + MOIS)
+TITLE = ("Le sujet, directement sur la plateforme", "formation-tcfcanada.com  ·  " + EPL + "  ·  " + MOIS)
 PARK = (1460, 840)
 PARK2 = (1150, 760)
 
@@ -196,7 +198,7 @@ def intro_frame(t):
     boxes = []; tags = []; rip = None; marker = None
     if 1.2 <= t < 3.2:
         al = clamp((t - 1.2) / .25) * clamp((3.2 - t) / .3)
-        if t < 2.0: boxes.append((box_scr(chip, v, 5), al, FLAG)); tags.append(((box_scr(chip, v, 5)[0], box_scr(chip, v, 5)[1] - 10), f"Partie {PT}", al, 'lb'))
+        if t < 2.0: boxes.append((box_scr(chip, v, 5), al, FLAG)); tags.append(((box_scr(chip, v, 5)[0], box_scr(chip, v, 5)[1] - 10), f"{UNIT} {PT}", al, 'lb'))
     if 1.95 <= t < 2.6: rip = (cur, (t - 1.95) / .6)
     if 4.4 <= t < 6.0:
         al = clamp((t - 4.4) / .25) * clamp((6.0 - t) / .3); hb = box_scr(hdr, v, 5)
@@ -207,13 +209,13 @@ def intro_frame(t):
         boxes.append((tb, al, FLAG)); tags.append(((tb[2], tb[1] - 10), TLAB, al, 'rb'))
     if t >= 8.9:
         al = clamp((t - 9.6) / .3) * clamp((13.3 - t) / .3); cb = box_scr(card, v, 3)
-        boxes.append((cb, al, FLAG)); tags.append(((cb[0], cb[1] - 10), f"Sujet n° {SK} · Partie {PT}", al, 'lb'))
+        boxes.append((cb, al, FLAG)); tags.append(((cb[0], cb[1] - 10), (f"Tâche {SK} · Combinaison {PT}" if EE else f"Sujet n° {SK} · Partie {PT}"), al, 'lb'))
         marker = (txt, clamp((t - 10.2) / 1.6) * clamp((13.6 - t) / .3))
     if 12.6 <= t:
         al = clamp((t - 12.6) / .25); bb = box_scr(btn, v, 4)
         boxes.append((bb, al, GREEN))
     if 13.25 <= t < 13.9: rip = (cur, (t - 13.25) / .6)
-    step = (1, "Choisir la partie") if t < 4.4 else (2, "Ouvrir la tâche " + TACHE) if t < 8.7 else (3, "Lire le sujet") if t < 12.6 else (4, "Commencer la simulation")
+    step = (1, "Choisir la combinaison" if EE else "Choisir la partie") if t < 4.4 else (2, "Ouvrir la tâche " + TACHE) if t < 8.7 else (3, "Lire le sujet") if t < 12.6 else (4, "Voir la correction" if EE else "Commencer la simulation")
     white = clamp((t - 13.75) / .45)
     return compose(src, v, T_IN, cur, boxes, rip, tags, TITLE, step, marker, white)
 
@@ -226,7 +228,7 @@ def outro_frame(t, D=6.5):
     boxes = [(cb, al, FLAG)]; tags = [((cb[2], cb[3] + 12), "Correction détaillée", al, 'rt')]
     rip = (cur, (t - 1.9) / .6) if 1.9 <= t < 2.5 else None
     fade = clamp(t / 0.6)
-    tt = ("Retrouvez ce sujet et sa correction", f"formation-tcfcanada.com  ·  Expression orale  ·  {MOIS}  ·  Partie {PT}")
+    tt = ("Retrouvez ce sujet et sa correction", f"formation-tcfcanada.com  ·  {EPL}  ·  {MOIS}  ·  {UNIT} {PT}")
     fr = compose(src, v, fade, cur, boxes, rip, tags, tt, (5, "Voir la correction"), (txt, 1.0), white=clamp((t - (D - 0.5)) / 0.5) * 0)
     return fr
 

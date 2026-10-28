@@ -85,7 +85,7 @@ Enregistrer → attendre « Vidéo liée à N apparitions ». Mettre `lie_site =
    Vérifier le découpage avec `robust()` ; prendre l'autre prise si besoin.
 4. `cd /home/claude/v24 && ./ee_make.sh <cle> TCF_ExpressionEcrite_T<t>_<Mois>_C<n>_<Prénom>_<Sujet>` (≈ 7 min). Contrôler des images (intro, site, consigne, erreur, modèle, bilan) et la miniature.
 5. Publication Metricool identique à la section 5, mais :
-   - Titre (≤ 100 caractères) : `TCF Canada Expression écrite Tâche <t> : « <titre court> » — Exercice corrigé <mois> <année>`
+   - Titre (≤ 100 caractères) : `TCF Canada Expression écrite Tâche <t> : « <titre court> » — Corrigé <mois> <année>` (ex. « TCF Canada Expression écrite Tâche 1 : « Recommander une salle de sport » — Corrigé novembre 2026 », 97 caractères)
    - Texte : « EXPRESSION ÉCRITE — TCF Canada, Tâche <t> (<Message court|Narration>). Sujet réel de <mois> <année> (Combinaison <n>) : « <sujet> » » +
      paragraphe (copie de <prénom> analysée, erreurs corrigées, version modèle, vocabulaire, bilan) + phrase 🎯 habituelle +
      `#TCFCanada #ExpressionEcrite #TCF #Immigration #Canada` ; tags [TCF Canada, expression écrite, tâche <t>, exercice corrigé, sujets <mois> <année>, PACK AYOUB, immigration Canada].

@@ -58,7 +58,7 @@ Vérifier le découpage (`robust` dans `/home/claude/t3/segs.py`) ; si une prise
      paragraphe simulation (prénom, registre, hésitations, chronomètre, corrections, bilan) +
      « 🎯 Entraînez-vous sur ce sujet et consultez sa correction sur https://formation-tcfcanada.com — notre seule plateforme officielle, opérée par PACK AYOUB. »
      + `#TCFCanada #ExpressionOrale #TCF #Immigration #Canada`
-   - youtubeData : privacy public, category EDUCATION, madeForKids false, isAiGeneratedContent true,
+   - youtubeData : privacy public, category EDUCATION, madeForKids false, isAiGeneratedContent **false** (consigne d'Ayoub, 31/10 : ne jamais activer l'option IA de YouTube),
      tags [TCF Canada, expression orale, tâche <t>, simulation TCF, sujets <mois> <année>, PACK AYOUB, immigration Canada].
    - Limite YouTube/Metricool : 20 publications / 24 h glissantes (une publication en erreur compte aussi).
 3. Ajouter une ligne à `pipeline/historique.csv` (lie_site = non, epreuve = EO), commit + push.

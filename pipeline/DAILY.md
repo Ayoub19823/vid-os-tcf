@@ -9,6 +9,11 @@ Langue de travail : français. On s'adresse à Ayoub (fondateur de formation-tcf
 2. Vérifier dans Metricool (brand `7353654`, `getScheduledPosts` sur la journée, fuseau `Africa/Casablanca`) qu'il n'y a pas
    **déjà** une vidéo YouTube prévue à 19 h aujourd'hui. Si oui : ne rien produire, juste faire le compte rendu.
 
+## Miniatures (consigne d'Ayoub du 31/10/2026)
+Style unique `pipeline/v6/thumb_v2.py` (appelé automatiquement par make_video.sh et ee_make.sh) : fond bleu, pastille rouge « SUJET <MOIS> <ANNÉE> »,
+« TÂCHE N » en jaune, « EXPRESSION ORALE / ÉCRITE » en blanc, encadré blanc avec le sujet (1re ligne de la miniature, courte), 3 coches, et la NOUVELLE photo
+`ayoub_new.png` (costume bleu marine). Ne jamais utiliser l'ancienne photo en chemise bleue (person.png).
+
 ## 0 bis. Rotation sur 4 jours (règle d'Ayoub)
 `(date_du_jour − 2026-10-29).days % 4` → **0 = Expression orale Tâche 2**, **1 = Expression orale Tâche 3**,
 **2 = Expression écrite Tâche 1 (exercice corrigé)**, **3 = Expression écrite Tâche 2 (exercice corrigé)**.

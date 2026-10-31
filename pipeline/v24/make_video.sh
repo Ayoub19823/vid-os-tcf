@@ -59,7 +59,7 @@ else (cd $V6 && python3 exam_light.py sess_$k $D/$k/voice.wav $D/$k/body.mp4); f
 python3 t3assemble.py $k p_$k $W/narr.wav /home/claude/out/$OUT.mp4
 # 6. miniature (avec « EXPRESSION ORALE » et la photo d'Ayoub)
 f=$P/site_${k}_site_intro.mp4; d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 $f)
-TD=$V6/th_$k; mkdir -p $TD && cp $V6/thumb_eo.py $V6/logoanim.py $V6/person.png $V6/logo.png $TD/ && cp -r $V6/lg $TD/
-CH=$([ $TA = 3 ] && echo 4:30 || echo 3:30)
-cd $TD && ffmpeg -v error -y -ss $(python3 -c "print($d*0.8)") -i $f -frames:v 1 ui.png && TASKN=$TA python3 thumb_eo.py light /home/claude/out/${OUT}_miniature.jpg $CH "$TH"
+# miniature v2 (style validé par Ayoub le 31/10/2026 : fond bleu, TÂCHE N en jaune, nouvelle photo ayoub_new.png)
+PILL=$(python3 -c "import sys; print('SUJET ' + sys.argv[1].upper())" "$MOIS"); L1=$(echo "$TH" | cut -d"|" -f1)
+(cd $V6 && python3 thumb_v2.py EO $TA "$L1" /home/claude/out/${OUT}_miniature.jpg "Simulation réelle|Corrections|Bilan" "$PILL")
 echo "$k DONE $(ffprobe -v error -show_entries format=duration -of csv=p=0 /home/claude/out/$OUT.mp4)"

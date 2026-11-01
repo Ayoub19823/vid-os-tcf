@@ -1,6 +1,6 @@
 """Miniature YouTube v2 (style validé par Ayoub le 31/10/2026 : fond bleu, « TÂCHE N » jaune, nouvelle photo).
 usage : python3 thumb_v2.py <EO|EE> <tache> "<ligne sujet>" <sortie.jpg> ["coche1|coche2|coche3"] ["TCF CANADA 2026"]
-La photo utilisée est ayoub_new.png (détourée, avec contour blanc), dans le même dossier que ce script."""
+La photo utilisée est ayoub_full.png (photo complète fournie le 01/11/2026, bras croisés) (détourée, avec contour blanc), dans le même dossier que ce script."""
 import sys, os, math
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
@@ -30,9 +30,9 @@ for i in range(-10, 30): od.line([(i * 70, 0), (i * 70 - 400, H)], fill=(255, 25
 img.alpha_composite(ov)
 
 # photo
-P = Image.open(os.path.join(D, 'ayoub_new.png')).convert('RGBA')
-k = 660 / P.height; P = P.resize((int(P.width * k), 660), Image.LANCZOS)
-px, py = W - P.width + 60, H - P.height + 76
+P = Image.open(os.path.join(D, 'ayoub_full.png')).convert('RGBA')
+PH = 650; k = PH / P.height; P = P.resize((int(P.width * k), PH), Image.LANCZOS)
+px, py = W - P.width + 24, H - P.height + 6
 sh = Image.new('RGBA', (W, H)); m = P.split()[3].point(lambda v: int(v * 0.55))
 sh.paste((5, 10, 50, 255), (px - 18, py + 14), m); sh = sh.filter(ImageFilter.GaussianBlur(18)); img.alpha_composite(sh)
 img.alpha_composite(P, (px, py))

@@ -1,0 +1,93 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 11,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Vous avez lu une annonce sur un site internet qui propose d’aider ceux qui souhaitent apprendre le français en les mettant en contact avec des partenaires linguistiques. Envoyez un courriel en vous présentant et en expliquant pourquoi vous souhaitez pratiquer le français.",
+ "mots_cles": [
+  "annonce",
+  "partenaires",
+  "linguistiques",
+  "courriel",
+  "présentant",
+  "expliquant",
+  "pratiquer"
+ ],
+ "points": [
+  "Saluer de façon formelle (vouvoiement)",
+  "Vous présenter (nom, âge, métier, pays)",
+  "Expliquer pourquoi pratiquer le français",
+  "Donner vos disponibilités",
+  "Conclure par une formule de politesse"
+ ],
+ "copie": "Bonjour, Je m'appelle Moussa Traoré, j'ai 29 ans et je suis comptable à Bamako. J'ai lu votre annonce et [[je suis très intéressé de|je suis très intéressé par|On dit « être intéressé par », pas « de »]] votre programme. Je parle français au travail, mais [[je fais beaucoup des fautes|je fais beaucoup de fautes|Après « beaucoup », on écrit « de »]] à l'oral. [[Je veux pratiquer pour que je réussis|Je souhaite pratiquer pour réussir|Même sujet : « pour » + infinitif]] le TCF Canada, car je vais immigrer au Canada [[l'année prochain.|l'année prochaine.|« Année » est féminin : « l'année prochaine »]] Je suis disponible le soir et le week-end. [[Merci de me répondre vite.|Je vous remercie par avance de votre réponse.|Courriel formel : une vraie formule de politesse]] Cordialement, Moussa Traoré",
+ "modele": [
+  [
+   "Objet",
+   "Objet : Demande de partenaire linguistique"
+  ],
+  [
+   "Salutation",
+   "Madame, Monsieur,"
+  ],
+  [
+   "Présentation",
+   "Je m'appelle Moussa Traoré, j'ai 29 ans et je suis comptable à Bamako, au Mali, depuis cinq ans. J'ai lu votre annonce avec beaucoup d'intérêt."
+  ],
+  [
+   "Motivation",
+   "Je parle français au travail, mais je fais encore beaucoup de fautes à l'oral et je manque de confiance quand je parle avec des francophones."
+  ],
+  [
+   "Projet",
+   "Je souhaite pratiquer régulièrement pour réussir le TCF Canada, car je compte immigrer au Canada l'année prochaine."
+  ],
+  [
+   "Disponibilités",
+   "Je suis disponible le soir après 18 h et le week-end, en visio ou par téléphone, selon vos préférences."
+  ],
+  [
+   "Conclusion",
+   "Je vous remercie par avance de votre réponse. Veuillez agréer, Madame, Monsieur, mes salutations distinguées. Moussa Traoré"
+  ]
+ ],
+ "vocab": [
+  "j'ai lu votre annonce avec intérêt",
+  "un partenaire linguistique",
+  "gagner en aisance à l'oral",
+  "améliorer ma prononciation",
+  "je reste à votre disposition",
+  "veuillez agréer mes salutations"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Présentation claire et complète",
+    "Motivation liée à un vrai projet (Canada)",
+    "Longueur respectée : entre 60 et 120 mots"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Prépositions : « intéressé par », « beaucoup de »",
+    "« Pour » + infinitif, accord « l'année prochaine »",
+    "Registre formel : vraie formule de politesse"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Ajoutez un objet clair au courriel",
+    "Vouvoyez du début à la fin",
+    "Terminez par une formule de politesse"
+   ]
+  ]
+ ],
+ "titre_court": "Trouver un partenaire linguistique",
+ "thumb": "PARTENAIRE LINGUISTIQUE|EXERCICE CORRIGÉ",
+ "prenom": "Moussa"
+}

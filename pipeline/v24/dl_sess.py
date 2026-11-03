@@ -5,7 +5,7 @@ import re, subprocess, sys, os, json, glob
 T = ''.join(open(f, errors='ignore').read() for f in sorted(glob.glob('/root/.claude/projects/*/*.jsonl'), key=os.path.getmtime)[-3:])
 T += ''.join(open(f, errors='ignore').read() for f in glob.glob('/root/.claude/projects/*/*/tool-results/*.txt') + glob.glob('/root/.claude/projects/*/tool-results/*.txt'))
 for sess, dst in json.loads(sys.argv[1]).items():
-    m = re.findall(r'https://storage\.googleapis\.com/xi-backend/database/workspace/[0-9a-f]+/content_generation/' + sess + r'/[A-Za-z0-9]+/content\.mp3\?[A-Za-z0-9%=&\-_.]+', T)
+    m = re.findall(r'https://(?:storage\.googleapis\.com/xi-backend|elevenlabsusercontent\.com)/database/workspace/[0-9a-f]+/content_generation/' + sess + r'/[A-Za-z0-9]+/content\.mp3\?[A-Za-z0-9%=&\-_.]+', T)
     if not m: print('PAS D’URL', sess, dst); continue
     os.makedirs(os.path.dirname(dst), exist_ok=True)
     subprocess.run(['curl', '-sS', '-o', dst + '.mp3', m[-1]], check=True)

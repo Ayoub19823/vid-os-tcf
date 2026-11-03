@@ -49,7 +49,7 @@ td = np.clip((xx / W) * .6 + (yy / H) * .4, 0, 1)[..., None]
 bg = (np.array((250, 251, 255), np.float32) * (1 - td) + np.array((234, 241, 255), np.float32) * td)
 dots = ((xx % 34 < 2.2) & (yy % 34 < 2.2))[..., None]; bg = np.where(dots, bg * .95, bg)
 PLAIN = Image.fromarray(bg.astype(np.uint8)).convert('RGBA')
-LG = static_logo(96)
+LG = static_logo(80)
 
 def wrap(words, font, maxw):
     lines, cur, wc = [], [], 0; sp = font.getlength(' ')
@@ -66,7 +66,7 @@ def card(d, b, col=None, a=1.0, r=28):
     d.rounded_rectangle(b, radius=r, fill=A(WHITE, a), outline=A(col or LINEC, a), width=3 if col else 2)
 
 def header(fr, at):
-    d = ImageDraw.Draw(fr, 'RGBA'); fr.alpha_composite(LG, (40, 22))
+    d = ImageDraw.Draw(fr, 'RGBA'); fr.alpha_composite(LG, (34, 8))
     d.text((40 + LG.width + 26, 46), f"Expression écrite · Tâche {TASKN}", font=F(BL, 44), fill=INK, anchor='lm')
     d.text((40 + LG.width + 28, 96), f"Exercice corrigé · {SP['mois']} · Combinaison {SP['combi']} · TCF Canada", font=F(MD, 22), fill=SLATE, anchor='lm')
     t = f"{TASKL.upper()} · {SP['mini']}–{SP['maxi']} MOTS"; f = F(BD, 24); tw = f.getlength(t)

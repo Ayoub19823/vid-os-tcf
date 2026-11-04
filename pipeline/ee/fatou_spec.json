@@ -1,0 +1,91 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 2,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Écrivez un message à vos amis pour leur proposer de passer un week-end avec vous pour faire du sport.",
+ "mots_cles": [
+  "message",
+  "amis",
+  "proposer",
+  "week-end",
+  "sport"
+ ],
+ "points": [
+  "Saluer vos amis (registre amical)",
+  "Proposer le week-end : date et lieu",
+  "Décrire les activités sportives",
+  "Donner les infos pratiques (logement, prix)",
+  "Demander une réponse et signer"
+ ],
+ "copie": "Salut les amis, [[Je vous propose qu'on passe|Je vous propose de passer|Après « proposer », on écrit « de » + infinitif]] le week-end du 15 novembre ensemble à Saly pour faire du sport. Le samedi matin, [[on va faire du randonnée|on va faire de la randonnée|« Randonnée » est féminin : « de la randonnée »]] dans la nature. L'après-midi, [[on jouera au football à la plage.|on jouera au football sur la plage.|On dit « sur la plage »]] Le dimanche, [[si il fait beau,|s'il fait beau,|« Si » + « il » devient « s'il »]] on peut faire du vélo et nager. J'ai trouvé une petite maison pas chère : 20 000 francs CFA par personne. [[Dites-moi avant mercredi si vous êtes intéressé !|Dites-moi avant mercredi si vous êtes intéressés !|« Vous » désigne plusieurs amis : accord au pluriel]] On va bien s'amuser ensemble ! Bises, Fatou",
+ "modele": [
+  [
+   "Salutation",
+   "Salut les amis,"
+  ],
+  [
+   "Proposition",
+   "Ça vous dirait de passer le week-end du 15 novembre ensemble à Saly, au bord de la mer, pour faire du sport et décompresser un peu ?"
+  ],
+  [
+   "Programme",
+   "Samedi matin, je vous propose une randonnée dans la nature, puis un match de football sur la plage l'après-midi. Dimanche, s'il fait beau, on fera du vélo et on nagera."
+  ],
+  [
+   "Logement",
+   "J'ai trouvé une jolie petite maison avec jardin, à deux pas de la plage."
+  ],
+  [
+   "Budget",
+   "Ça coûte seulement 20 000 francs CFA par personne, repas compris."
+  ],
+  [
+   "Réponse",
+   "Dites-moi avant mercredi si vous êtes intéressés, pour que je puisse réserver. Ça va être génial !"
+  ],
+  [
+   "Signature",
+   "Bises, Fatou"
+  ]
+ ],
+ "vocab": [
+  "ça vous dirait de… ?",
+  "décompresser un peu",
+  "se dépenser",
+  "faire une randonnée",
+  "repas compris",
+  "à deux pas de la plage"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Proposition claire : date, lieu, activités",
+    "Registre amical bien adapté",
+    "Longueur respectée : entre 60 et 120 mots"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "« Proposer de » + infinitif",
+    "Genre des noms : « la randonnée »",
+    "Accords avec « vous » au pluriel"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Gardez 2 minutes pour vous relire",
+    "Comptez vos mots avant de valider",
+    "Terminez par une demande de réponse et une signature"
+   ]
+  ]
+ ],
+ "titre_court": "Proposer un week-end sportif",
+ "thumb": "WEEK-END SPORTIF|EXERCICE CORRIGÉ",
+ "prenom": "Fatou"
+}

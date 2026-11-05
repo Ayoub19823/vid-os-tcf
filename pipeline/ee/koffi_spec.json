@@ -1,0 +1,93 @@
+{
+ "task": 2,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 1,
+ "mini": 120,
+ "maxi": 150,
+ "consigne": "Vous venez d’assister au concert de votre artiste favori. Vous écrivez un article sur votre blog personnel, pour partager cette expérience et inciter vos amis et les autres à assister à son prochain concert.",
+ "mots_cles": [
+  "assister",
+  "concert",
+  "artiste favori",
+  "article",
+  "blog personnel",
+  "partager",
+  "inciter"
+ ],
+ "points": [
+  "Présenter le concert (quand, où, quel artiste)",
+  "Raconter au passé (passé composé / imparfait)",
+  "Décrire l'ambiance et vos émotions",
+  "Inciter vos lecteurs à aller au prochain concert",
+  "Garder le ton vivant d'un article de blog"
+ ],
+ "copie": "Samedi dernier, j'ai enfin vu mon groupe préféré, Magic System, en concert au Palais de la Culture d'Abidjan. Quelle soirée ! Avec mes cousins, [[nous sommes arrivé|nous sommes arrivés|Avec « être », le participe passé s'accorde avec le sujet : « arrivés »]] deux heures avant le début, et la salle était déjà pleine. Quand les musiciens sont montés sur scène, tout le public s'est levé d'un seul coup en criant de joie. Ils ont chanté tous leurs grands succès, [[et après ils ont invité|puis ils ont invité|À l'écrit, préférez « puis » ou « ensuite » à « et après »]] des enfants à danser avec eux. L'ambiance était [[très chaud|très chaude|« Ambiance » est un nom féminin : « chaude »]] et j'avais des frissons du début à la fin. Ce qui m'a le plus touché, c'est quand toute la salle a chanté le refrain en chœur. Mes amis, le prochain concert aura lieu [[en Montréal|à Montréal|Devant un nom de ville, on emploie « à »]] au mois de mars. [[Malgré que les billets coûtent cher|Même si les billets coûtent cher|« Malgré que » est à éviter : employez « même si » ou « bien que »]], n'hésitez pas : réservez vite vos places, vous ne le regretterez pas !",
+ "modele": [
+  [
+   "Accroche",
+   "Samedi dernier, j'ai enfin réalisé un rêve : voir mon groupe préféré, Magic System, en concert au Palais de la Culture d'Abidjan. Quelle soirée !"
+  ],
+  [
+   "Arrivée",
+   "Avec mes cousins, nous sommes arrivés deux heures avant le début, et la salle était déjà pleine de fans impatients."
+  ],
+  [
+   "Spectacle",
+   "Quand les musiciens sont montés sur scène, tout le public s'est levé d'un seul coup en criant de joie. Ils ont chanté tous leurs grands succès, puis ils ont invité des enfants à danser avec eux."
+  ],
+  [
+   "Ambiance",
+   "L'ambiance était très chaude et j'avais des frissons du début à la fin."
+  ],
+  [
+   "Moment fort",
+   "Ce qui m'a le plus touché, c'est quand toute la salle a chanté le refrain en chœur : un moment magique."
+  ],
+  [
+   "Invitation",
+   "Mes amis, le prochain concert aura lieu à Montréal au mois de mars. Même si les billets coûtent cher, n'hésitez pas : réservez vite vos places !"
+  ],
+  [
+   "Conclusion",
+   "Croyez-moi, vous ne le regretterez pas."
+  ]
+ ],
+ "vocab": [
+  "une ambiance électrique",
+  "monter sur scène",
+  "chanter en chœur",
+  "avoir des frissons",
+  "un moment inoubliable",
+  "je vous le recommande vivement"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Récit vivant et chronologique",
+    "Émotions bien exprimées",
+    "Appel clair aux lecteurs"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Accord du participe passé avec « être »",
+    "Genre des noms (« une ambiance »)",
+    "« à » devant une ville, pas « malgré que »"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Commencez par une accroche de blog",
+    "Racontez puis invitez : les deux parties",
+    "Visez 130 à 145 mots"
+   ]
+  ]
+ ],
+ "titre_court": "Article de blog sur un concert",
+ "thumb": "UN CONCERT INOUBLIABLE|EXERCICE CORRIGÉ",
+ "prenom": "Koffi"
+}

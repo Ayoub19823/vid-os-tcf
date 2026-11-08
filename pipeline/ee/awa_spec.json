@@ -1,0 +1,97 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 9,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Vous organisez un anniversaire surprise pour votre ami(e) Karim. Écrivez un message à vos amis pour les inviter et leur expliquer l'organisation de la fête (date, lieu, cadeau, rôle de chacun, etc.).",
+ "mots_cles": [
+  "anniversaire",
+  "surprise",
+  "Karim",
+  "message",
+  "amis",
+  "inviter",
+  "organisation",
+  "date",
+  "lieu",
+  "cadeau",
+  "rôle"
+ ],
+ "points": [
+  "Saluer vos amis (registre amical)",
+  "Inviter : date, heure et lieu",
+  "Présenter le cadeau commun",
+  "Répartir le rôle de chacun",
+  "Garder le secret et signer"
+ ],
+ "copie": "Salut tout le monde, [[Comme vous savez,|Comme vous le savez,|On dit « comme vous le savez », avec le pronom « le »]] Karim aura trente ans le 21 novembre. Je lui organise une fête surprise chez moi, à Cocody, le samedi 21 à 20 heures. [[Il faut que vous venez|Il faut que vous veniez|Après « il faut que », on met le subjonctif : « veniez »]] à 19 h 30 pour être prêts avant son arrivée. Pour le cadeau, on achète une montre : chacun donne 5 000 francs CFA. [[Moussa s'occupe de la gâteau,|Moussa s'occupe du gâteau,|« Gâteau » est masculin : « du gâteau »]] Fatou apporte les boissons et [[c'est moi qui va décorer|c'est moi qui vais décorer|Après « moi qui », le verbe s'accorde avec « je » : « vais »]] le salon. Surtout, [[n'en parlez pas à lui !|ne lui en parlez pas !|Les pronoms « lui » et « en » se placent avant le verbe]] Répondez-moi avant mercredi. Bisous, Awa",
+ "modele": [
+  [
+   "Salutation",
+   "Salut tout le monde,"
+  ],
+  [
+   "Annonce",
+   "Comme vous le savez, Karim fête ses trente ans le 21 novembre. Je lui prépare une fête surprise et vous êtes tous invités !"
+  ],
+  [
+   "Date et lieu",
+   "Rendez-vous le samedi 21 novembre chez moi, à Cocody. Karim arrivera à 20 heures, donc venez à 19 h 30 au plus tard."
+  ],
+  [
+   "Cadeau",
+   "Pour le cadeau, on lui offre la montre dont il rêve : chacun participe à hauteur de 5 000 francs CFA."
+  ],
+  [
+   "Rôles",
+   "Moussa s'occupe du gâteau, Fatou apporte les boissons et c'est moi qui vais décorer le salon."
+  ],
+  [
+   "Secret",
+   "Surtout, ne lui en parlez pas : c'est une surprise ! Je compte sur vous, répondez-moi avant mercredi."
+  ],
+  [
+   "Signature",
+   "Bisous, Awa"
+  ]
+ ],
+ "vocab": [
+  "organiser une fête surprise",
+  "garder le secret",
+  "participer à hauteur de",
+  "au plus tard",
+  "se répartir les tâches",
+  "je compte sur vous"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Toutes les informations demandées sont présentes",
+    "Ton amical adapté à un message entre amis",
+    "Longueur respectée : entre 60 et 120 mots"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Le subjonctif après « il faut que »",
+    "La place des pronoms (lui, en)",
+    "Le genre des noms (le gâteau)"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Gardez 2 minutes pour vous relire",
+    "Comptez vos mots avant de valider",
+    "Donnez un rôle précis à chaque ami"
+   ]
+  ]
+ ],
+ "titre_court": "Fête d'anniversaire surprise",
+ "thumb": "ANNIVERSAIRE SURPRISE|EXERCICE CORRIGÉ",
+ "prenom": "Awa"
+}

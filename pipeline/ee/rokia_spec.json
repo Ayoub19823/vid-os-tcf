@@ -1,0 +1,43 @@
+{
+ "task": 2,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 7,
+ "mini": 120,
+ "maxi": 150,
+ "consigne": "Vous avez quitté la ville afin de vous installer à la campagne. Sur votre blog, vous expliquez pourquoi vous avez fait ce choix et vous présentez les avantages de votre nouvelle vie.",
+ "mots_cles": ["quitté la ville", "installer", "campagne", "blog", "pourquoi", "ce choix", "avantages", "nouvelle vie"],
+ "points": [
+  "Présenter le changement (quand, d'où, vers où)",
+  "Expliquer les raisons de votre choix",
+  "Présenter les avantages de la nouvelle vie",
+  "Alterner passé et présent",
+  "Garder le ton personnel d'un blog"
+ ],
+ "copie": "Chers lecteurs, il y a un an, j'ai quitté Montréal pour m'installer dans un petit village près de Sherbrooke. Beaucoup de mes amis m'ont demandé pourquoi. En ville, je passais deux heures par jour dans les transports et le loyer augmentait chaque année. Le soir, [[j'étais toujours fatigué|j'étais toujours fatiguée|Rokia est une femme : l'adjectif s'accorde au féminin]] et stressée. Aujourd'hui, j'habite dans une maison avec un grand jardin où je cultive mes propres légumes. Le matin, j'entends les oiseaux au lieu des klaxons. [[Les voisins sont très accueillant|Les voisins sont très accueillants|L'adjectif s'accorde avec « voisins » : masculin pluriel]] : ils m'ont aidée à déménager et ils m'invitent souvent à dîner. Mes enfants jouent dehors en toute sécurité. Bien sûr, je dois prendre la voiture pour faire les courses, mais [[la vie est plus meilleure|la vie est bien meilleure|« Meilleur » est déjà un comparatif : jamais « plus meilleur »]] ici. [[Je me suis vite habituée à la calme|Je me suis vite habituée au calme|« Calme » est un nom masculin : « le calme »]] de la campagne. [[Si je savais|Si j'avais su|Regret dans le passé : « si » + plus-que-parfait]], je serais partie bien plus tôt !",
+ "modele": [
+  ["Accroche", "Chers lecteurs, il y a un an, j'ai quitté Montréal pour m'installer dans un petit village près de Sherbrooke. Beaucoup d'entre vous m'ont demandé pourquoi."],
+  ["Raisons", "En ville, je passais deux heures par jour dans les transports et mon loyer augmentait chaque année. Le soir, j'étais toujours fatiguée et stressée."],
+  ["Nouvelle vie", "Aujourd'hui, j'habite une maison avec un grand jardin où je cultive mes propres légumes. Le matin, j'entends les oiseaux au lieu des klaxons."],
+  ["Voisins", "Les voisins sont très accueillants : ils m'ont aidée à déménager et m'invitent souvent à dîner."],
+  ["Famille", "Mes enfants jouent dehors en toute sécurité et respirent enfin un air pur."],
+  ["Nuance", "Bien sûr, je dois prendre la voiture pour faire les courses, mais la vie est bien meilleure ici. Je me suis vite habituée au calme de la campagne."],
+  ["Conclusion", "Si j'avais su, je serais partie bien plus tôt !"]
+ ],
+ "vocab": [
+  "fuir le stress de la ville",
+  "la qualité de vie",
+  "un cadre de vie paisible",
+  "respirer un air pur",
+  "se sentir chez soi",
+  "je ne regrette rien"
+ ],
+ "bilan": [
+  ["Points forts", ["Raisons et avantages bien présents", "Bon équilibre entre passé et présent", "Détails concrets et ton de blog"]],
+  ["À améliorer", ["Accord des adjectifs (genre et nombre)", "Jamais « plus meilleur »", "« le calme », « si j'avais su »"]],
+  ["Conseils pour l'examen", ["Traitez les deux parties de la consigne", "Ajoutez une petite nuance pour convaincre", "Visez 130 à 145 mots"]]
+ ],
+ "titre_court": "Quitter la ville pour la campagne",
+ "thumb": "VIVRE À LA CAMPAGNE|EXERCICE CORRIGÉ",
+ "prenom": "Rokia"
+}

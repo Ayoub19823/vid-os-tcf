@@ -1,0 +1,43 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 6,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Vous écrivez une lettre à votre ami pour l’inviter à un festival de musique dans votre ville. Vous mentionnez les détails importants tels que le lieu, la date, les artistes invités et toutes les informations pratiques nécessaires.",
+ "mots_cles": ["lettre", "ami", "inviter", "festival de musique", "ville", "lieu", "date", "artistes invités", "informations pratiques"],
+ "points": [
+  "Saluer votre ami (tutoiement)",
+  "L'inviter : lieu et date du festival",
+  "Présenter les artistes invités",
+  "Donner les informations pratiques",
+  "Demander une réponse et signer"
+ ],
+ "copie": "Salut Aminata, J'espère que tu vas bien ! Je t'écris pour [[t'invite|t'inviter|Après « pour », le verbe se met à l'infinitif : « inviter »]] au festival « Sons d'Afrique » dans ma ville. Il aura lieu [[à le Centre culturel,|au Centre culturel,|« À + le » se contracte toujours en « au »]] près de la gare, le samedi 28 novembre à partir de 18 heures. Il y aura des [[chanteurs très connu|chanteurs très connus|L'adjectif s'accorde avec « chanteurs » : « connus »]] du Sénégal et du Cameroun. Le billet coûte quarante dollars, mais sur Internet c'est [[moins chère.|moins cher.|Après « c'est », « cher » reste au masculin]] Tu peux dormir chez moi, j'habite à dix minutes. Si tu es d'accord, je réserve deux places, [[répond-moi|réponds-moi|À l'impératif, « répondre » garde son « s » : « réponds-moi »]] vite ! À très bientôt, Ibrahima",
+ "modele": [
+  ["Salutation", "Chère Aminata,"],
+  ["Invitation", "J'espère que tu vas bien ! Je t'écris pour t'inviter au festival de musique « Sons d'Afrique », qui aura lieu dans ma ville le samedi 28 novembre."],
+  ["Lieu", "Il se déroulera au Centre culturel, juste à côté de la gare, à partir de 18 heures."],
+  ["Artistes", "Plusieurs chanteurs très connus du Sénégal et du Cameroun sont à l'affiche. C'est à ne pas manquer !"],
+  ["Infos pratiques", "Le billet coûte quarante dollars, mais il est moins cher en prévente sur Internet. Tu peux venir en train, et je t'héberge avec plaisir : j'habite à dix minutes du centre."],
+  ["Réponse", "Si tu es partante, je réserve nos deux places dès ce soir. Réponds-moi vite !"],
+  ["Signature", "Je t'embrasse, Ibrahima"]
+ ],
+ "vocab": [
+  "avoir lieu / se dérouler",
+  "être à l'affiche",
+  "un billet en prévente",
+  "c'est à ne pas manquer",
+  "je t'héberge avec plaisir",
+  "si tu es partant(e)"
+ ],
+ "bilan": [
+  ["Points forts", ["Lieu, date, artistes et infos pratiques présents", "Ton amical et tutoiement adapté", "Longueur respectée : entre 60 et 120 mots"]],
+  ["À améliorer", ["Mettre l'infinitif après « pour »", "Penser aux contractions « au », « du »", "Vérifier les accords des adjectifs"]],
+  ["Conseils pour l'examen", ["Gardez 2 minutes pour vous relire", "Comptez vos mots avant de valider", "Terminez par une question et une signature"]]
+ ],
+ "titre_court": "Inviter un ami à un festival",
+ "thumb": "FESTIVAL DE MUSIQUE|EXERCICE CORRIGÉ",
+ "prenom": "Ibrahima"
+}

@@ -1,0 +1,92 @@
+{
+ "task": 2,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 21,
+ "mini": 120,
+ "maxi": 150,
+ "consigne": "Vous avez récemment suivi un cours de sport dans une salle de votre ville. Rédigez un article pour votre blog personnel afin de raconter cette expérience et donner votre avis sur cette salle.",
+ "mots_cles": [
+  "suivi un cours de sport",
+  "salle de votre ville",
+  "article",
+  "blog personnel",
+  "raconter cette expérience",
+  "donner votre avis"
+ ],
+ "points": [
+  "Présenter le cours (quand, où, avec qui)",
+  "Raconter le déroulement au passé",
+  "Décrire la salle : équipement, ambiance, prix",
+  "Donner un avis clair et nuancé",
+  "Garder le ton personnel d'un blog"
+ ],
+ "copie": "Bonjour à tous, chers lecteurs ! La semaine dernière, j'ai suivi mon premier cours de zumba à la salle Énergie Plus, dans le centre de Gatineau. [[Je suis allé|Je suis allée|Mariam est une femme : avec « être », le participe s'accorde au féminin]] là-bas avec ma collègue Sophie. Le cours a duré une heure et la coach était très dynamique. Au début, j'avais vraiment du mal à suivre les pas, mais [[elle nous a montré chaque mouvements|elle nous a montré chaque mouvement|« Chaque » est toujours suivi du singulier]] avec patience. L'ambiance était géniale : tout le monde riait et dansait. À la fin, j'étais épuisée mais très heureuse. La salle est propre, moderne et très bien [[équipé|équipée|L'adjectif s'accorde avec « la salle » : féminin]]. Les vestiaires sont spacieux et le personnel est très accueillant. Par contre, l'abonnement coûte soixante dollars par mois. [[Malgré que c'est cher|Même si c'est un peu cher|« Malgré que » est incorrect : on dit « même si » + indicatif]], je vous recommande cette salle. [[J'y retournerai la semaine prochain|J'y retournerai la semaine prochaine|« Semaine » est féminin : « la semaine prochaine »]] !",
+ "modele": [
+  [
+   "Accroche",
+   "Bonjour à tous, chers lecteurs ! La semaine dernière, j'ai suivi mon tout premier cours de zumba à la salle Énergie Plus, au centre de Gatineau."
+  ],
+  [
+   "Le cours",
+   "Je suis allée là-bas avec ma collègue Sophie. Le cours a duré une heure et la coach était très dynamique."
+  ],
+  [
+   "Déroulement",
+   "Au début, j'avais du mal à suivre les pas, mais elle nous a montré chaque mouvement avec patience. Petit à petit, j'ai pris confiance."
+  ],
+  [
+   "Ambiance",
+   "L'ambiance était géniale : tout le monde riait et dansait, même les débutants. À la fin, j'étais épuisée, mais tellement heureuse !"
+  ],
+  [
+   "La salle",
+   "La salle est propre, moderne et très bien équipée. Les vestiaires sont spacieux et le personnel est accueillant."
+  ],
+  [
+   "Mon avis",
+   "Par contre, l'abonnement coûte soixante dollars par mois. Même si c'est un peu cher, je vous recommande vivement cette salle."
+  ],
+  [
+   "Conclusion",
+   "J'y retournerai la semaine prochaine, et vous, quand venez-vous danser avec moi ?"
+  ]
+ ],
+ "vocab": [
+  "un cours d'essai",
+  "un coach motivant",
+  "une ambiance conviviale",
+  "être bien équipé(e)",
+  "le rapport qualité-prix",
+  "je vous la recommande vivement"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Récit vivant et bien organisé",
+    "Avis clair sur la salle",
+    "Ton personnel adapté au blog"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Accords au féminin (participe, adjectif)",
+    "« chaque » + singulier",
+    "« même si » et non « malgré que »"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Traitez les deux parties : raconter + donner votre avis",
+    "Nuancez avec « par contre », « même si »",
+    "Visez 130 à 145 mots"
+   ]
+  ]
+ ],
+ "titre_court": "Mon cours de sport en salle",
+ "thumb": "MON COURS DE SPORT|EXERCICE CORRIGÉ",
+ "prenom": "Mariam"
+}

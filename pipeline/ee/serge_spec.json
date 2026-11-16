@@ -1,0 +1,93 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 26,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "Votre ami Mehdi vient d’emménager dans votre ville et cherche des renseignements sur les moyens de transport. Écrivez un message en lui donnant les informations nécessaires (types de transport, abonnement, tarif, etc.)",
+ "mots_cles": [
+  "ami",
+  "emménager",
+  "renseignements",
+  "moyens de transport",
+  "types de transport",
+  "abonnement",
+  "tarif"
+ ],
+ "points": [
+  "Saluer votre ami Mehdi (tutoiement)",
+  "Présenter les types de transport",
+  "Expliquer l'abonnement",
+  "Donner les tarifs",
+  "Faire une proposition et signer"
+ ],
+ "copie": "Salut Mehdi, bienvenue dans notre ville ! Pour te déplacer, le plus simple, c'est le métro et le bus. Il y a deux [[lignes du métro|lignes de métro|On dit « une ligne de métro », sans article]] qui passent au centre-ville. [[Je te conseil|Je te conseille|Verbe « conseiller » : « je conseille », avec -le]] de prendre l'abonnement mensuel : il coûte quatre-vingt-dix dollars et tu peux voyager sans limite. Un billet simple coûte trois dollars cinquante. [[Si tu prend|Si tu prends|Avec « tu », le verbe prend un -s : « tu prends »]] le bus le soir, fais attention : il passe [[chaque trente minutes|toutes les trente minutes|Pour une fréquence, on dit « toutes les trente minutes »]]. Si tu as besoin d'aide, [[n'hésite pas de m'appeler|n'hésite pas à m'appeler|On dit « hésiter à », jamais « hésiter de »]] ! À bientôt, Serge",
+ "modele": [
+  [
+   "Salutation",
+   "Salut Mehdi,"
+  ],
+  [
+   "Introduction",
+   "Bienvenue dans notre ville ! Tu m'as demandé comment te déplacer, alors voici l'essentiel."
+  ],
+  [
+   "Transports",
+   "Le plus pratique, c'est le métro : deux lignes traversent le centre-ville de 5 h à 1 h du matin. Les bus complètent le réseau, mais le soir, ils passent seulement toutes les trente minutes."
+  ],
+  [
+   "Abonnement",
+   "Je te conseille l'abonnement mensuel : il coûte quatre-vingt-dix dollars et permet de voyager sans limite."
+  ],
+  [
+   "Tarifs",
+   "Un billet simple coûte trois dollars cinquante, donc si tu prends le métro tous les jours, l'abonnement est vite rentable."
+  ],
+  [
+   "Proposition",
+   "Si tu veux, je t'accompagne samedi pour acheter ta carte. N'hésite pas à m'appeler !"
+  ],
+  [
+   "Signature",
+   "À bientôt, Serge"
+  ]
+ ],
+ "vocab": [
+  "les transports en commun",
+  "un abonnement mensuel",
+  "un billet simple",
+  "une correspondance",
+  "les heures de pointe",
+  "c'est vite rentable"
+ ],
+ "bilan": [
+  [
+   "Points forts",
+   [
+    "Toutes les informations demandées sont présentes",
+    "Ton amical et registre adapté (tutoiement)",
+    "Longueur respectée : entre 60 et 120 mots"
+   ]
+  ],
+  [
+   "À améliorer",
+   [
+    "Bien conjuguer les verbes avec « tu »",
+    "Soigner les prépositions (hésiter à, ligne de)",
+    "Ajouter les horaires et une proposition concrète"
+   ]
+  ],
+  [
+   "Conseils pour l'examen",
+   [
+    "Gardez 2 minutes pour vous relire",
+    "Comptez vos mots avant de valider",
+    "Terminez par une proposition et une signature"
+   ]
+  ]
+ ],
+ "titre_court": "Les transports de votre ville",
+ "thumb": "TRANSPORTS EN VILLE|EXERCICE CORRIGÉ",
+ "prenom": "Serge"
+}

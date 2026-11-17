@@ -1,0 +1,36 @@
+{
+ "task": 2,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 49,
+ "mini": 120,
+ "maxi": 150,
+ "consigne": "Vous venez de commencer une nouvelle activité de loisir (sport, danse, etc.). Écrivez un article sur votre blog pour parler de cette expérience.",
+ "mots_cles": ["venez de commencer", "nouvelle activité de loisir", "article", "votre blog", "parler", "cette expérience"],
+ "points": [
+  "Présenter l'activité choisie (quoi, où, quand)",
+  "Expliquer pourquoi vous l'avez commencée",
+  "Raconter vos débuts au passé",
+  "Décrire l'ambiance et vos progrès",
+  "Donner votre avis avec le ton d'un blog"
+ ],
+ "copie": "Salut tout le monde ! [[Depuis un mois, j'ai commencé|Il y a un mois, j'ai commencé|Avec le passé composé, on dit « il y a », pas « depuis »]] un nouveau loisir : la natation. Quand je suis arrivé à Québec, je ne savais pas nager du tout. Alors, [[je me suis inscris|je me suis inscrit|Participe passé de « s'inscrire » : « inscrit », avec un t]] à un cours pour adultes à la piscine de mon quartier. [[Le premier jour, j'ai très stressé|Le premier jour, j'étais très stressé|Pour décrire un état au passé : imparfait de « être »]] parce que j'avais peur de l'eau. Heureusement, notre moniteur, Julien, est très patient et il nous encourage beaucoup. Nous sommes huit dans le groupe et l'ambiance est super sympa. [[Les cours ont lieu le samedi matins|Les cours ont lieu le samedi matin|« Le samedi matin » = chaque samedi : « matin » reste au singulier]] et ils durent une heure. Aujourd'hui, je peux traverser la piscine sans m'arrêter, et je suis vraiment fier de moi ! En plus, ce sport me détend après une longue semaine de travail. Si vous hésitez encore, [[je vous conseille de essayer|je vous conseille d'essayer|Devant une voyelle, « de » s'élide : « d'essayer »]] : il n'est jamais trop tard pour apprendre !",
+ "modele": [
+  ["Accroche", "Salut tout le monde ! Il y a un mois, j'ai commencé un nouveau loisir : la natation."],
+  ["Pourquoi", "Quand je suis arrivé à Québec, je ne savais pas nager du tout. Alors, je me suis inscrit à un cours pour adultes à la piscine de mon quartier."],
+  ["Mes débuts", "Le premier jour, j'étais très stressé, parce que j'avais peur de l'eau. Heureusement, notre moniteur, Julien, est patient et il nous encourage beaucoup."],
+  ["Ambiance", "Nous sommes huit dans le groupe et l'ambiance est très conviviale. Les cours ont lieu le samedi matin et durent une heure."],
+  ["Progrès", "Aujourd'hui, je traverse la piscine sans m'arrêter, et j'en suis vraiment fier !"],
+  ["Mon avis", "En plus, ce sport me détend après une longue semaine de travail. C'est la meilleure décision de mon année."],
+  ["Conclusion", "Si vous hésitez encore, je vous conseille d'essayer : il n'est jamais trop tard pour apprendre !"]
+ ],
+ "vocab": ["une activité de loisir", "s'inscrire à un cours", "un moniteur patient", "une ambiance conviviale", "faire des progrès", "il n'est jamais trop tard pour…"],
+ "bilan": [
+  ["Points forts", ["Ton de blog vivant et personnel", "Récit clair : avant / maintenant", "Avis et conseil au lecteur"]],
+  ["À améliorer", ["« il y a » + passé composé, pas « depuis »", "Participes et élision : inscrit, d'essayer", "Imparfait pour décrire un état"]],
+  ["Conseils pour l'examen", ["Annoncez l'activité dès la 1re phrase", "Alternez passé composé, imparfait et présent", "Visez 130 à 145 mots"]]
+ ],
+ "titre_court": "Ma nouvelle activité de loisir",
+ "thumb": "MA NOUVELLE ACTIVITÉ|EXERCICE CORRIGÉ",
+ "prenom": "Ousmane"
+}

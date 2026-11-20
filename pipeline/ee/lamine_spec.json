@@ -1,0 +1,43 @@
+{
+ "task": 1,
+ "mois": "Novembre 2026",
+ "mslug": "novembre-2026",
+ "combi": 53,
+ "mini": 60,
+ "maxi": 120,
+ "consigne": "La bibliothèque de votre ville organise une rencontre avec un écrivain. Écrivez un message à votre ami(e) pour l’inviter à cet événement.",
+ "mots_cles": ["bibliothèque", "ville", "rencontre", "écrivain", "message", "ami(e)", "inviter", "événement"],
+ "points": [
+  "Saluer votre ami(e) (tutoiement)",
+  "Annoncer l'événement : rencontre avec un écrivain",
+  "Donner la date, l'heure et le lieu",
+  "Expliquer pourquoi y aller (programme, intérêt)",
+  "Proposer un rendez-vous et signer"
+ ],
+ "copie": "Salut Fatima, [[Je t'écris pour te inviter|Je t'écris pour t'inviter|Devant une voyelle, « te » devient « t' »]] à un événement à la bibliothèque de notre ville. Samedi prochain, [[il y aura une rencontre avec un écrivain québécoise|il y aura une rencontre avec un écrivain québécois|« Écrivain » est masculin : l'adjectif reste au masculin]], Marc Gagnon. Il va parler de son dernier roman sur l'immigration et [[signer des livres pour les lecteurs qui veut|signer des livres pour les lecteurs qui veulent|Le sujet « les lecteurs » est pluriel : « veulent »]]. L'entrée est gratuite. [[Je sais que tu aime beaucoup lire|Je sais que tu aimes beaucoup lire|Avec « tu », le verbe prend un « s »]], alors viens avec moi ! On peut se retrouver devant l'entrée à 14 h 30. [[Répond-moi vite !|Réponds-moi vite !|À l'impératif, « répondre » garde le « s » : « réponds »]] Bises, Lamine",
+ "modele": [
+  ["Salutation", "Salut Fatima,"],
+  ["Invitation", "J'espère que tu vas bien ! Je t'écris pour t'inviter à un événement qui devrait te plaire."],
+  ["Événement", "La bibliothèque municipale organise une rencontre avec l'écrivain québécois Marc Gagnon, qui vient présenter son dernier roman sur l'immigration."],
+  ["Infos", "Ça se passe samedi prochain, de 15 h à 17 h, dans la grande salle de lecture. L'entrée est gratuite, mais il faut s'inscrire à l'accueil."],
+  ["Intérêt", "Comme tu adores lire, je suis sûr que ça va te passionner : il y aura un échange avec le public et une séance de dédicaces."],
+  ["Rendez-vous", "On se retrouve devant l'entrée à 14 h 30 ? Réponds-moi vite !"],
+  ["Signature", "Bises, Lamine"]
+ ],
+ "vocab": [
+  "une rencontre littéraire",
+  "une séance de dédicaces",
+  "l'entrée est gratuite",
+  "s'inscrire à l'accueil",
+  "ça devrait te plaire",
+  "un échange avec le public"
+ ],
+ "bilan": [
+  ["Points forts", ["L'invitation est claire dès la première phrase", "Date, heure et lieu sont donnés", "Longueur respectée : entre 60 et 120 mots"]],
+  ["À améliorer", ["Accorder le verbe avec son sujet (tu aimes, ils veulent)", "Faire l'élision devant une voyelle (t'inviter)", "Expliquer davantage l'intérêt de l'événement"]],
+  ["Conseils pour l'examen", ["Gardez 2 minutes pour vous relire", "Comptez vos mots avant de valider", "Terminez par un rendez-vous et une signature"]]
+ ],
+ "titre_court": "Inviter à rencontrer un écrivain",
+ "thumb": "RENCONTRE ÉCRIVAIN|EXERCICE CORRIGÉ",
+ "prenom": "Lamine"
+}

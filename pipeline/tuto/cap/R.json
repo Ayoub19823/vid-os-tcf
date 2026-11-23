@@ -1,0 +1,149 @@
+{
+ "t_btn": [
+  931.9,
+  899,
+  348.1,
+  46
+ ],
+ "t_tarifs": [
+  925.3,
+  10,
+  85,
+  28
+ ],
+ "t_title": [
+  732.5,
+  385,
+  208.1,
+  39
+ ],
+ "t_card": [
+  288,
+  467,
+  1024,
+  510
+ ],
+ "t_price": [
+  320,
+  908,
+  243.9,
+  28
+ ],
+ "t_pills": [
+  288,
+  467,
+  1024,
+  510
+ ],
+ "t_h": 1197,
+ "r_tz": [
+  441,
+  347,
+  718,
+  105.5
+ ],
+ "r_cal": [
+  441,
+  665.6,
+  390,
+  221.19999999999993
+ ],
+ "r_day": [
+  553.6,
+  721.9,
+  52.3,
+  52.3
+ ],
+ "r_dayText": "18 6 dispo.",
+ "r_slots": [
+  {
+   "t": "10 h 00 E EMMANUEL",
+   "r": [
+    880,
+    528.5,
+    275,
+    50
+   ]
+  },
+  {
+   "t": "11 h 00 E EMMANUEL",
+   "r": [
+    880,
+    586.5,
+    275,
+    50
+   ]
+  },
+  {
+   "t": "12 h 00 E EMMANUEL",
+   "r": [
+    880,
+    644.5,
+    275,
+    50
+   ]
+  },
+  {
+   "t": "16 h 00 A AHLEM",
+   "r": [
+    880,
+    702.5,
+    275,
+    50
+   ]
+  },
+  {
+   "t": "17 h 00 E EMMANUEL",
+   "r": [
+    880,
+    760.5,
+    275,
+    50
+   ]
+  },
+  {
+   "t": "18 h 00 E EMMANUEL",
+   "r": [
+    880,
+    818.5,
+    275,
+    50
+   ]
+  }
+ ],
+ "r_slotHead": [
+  880,
+  472.5,
+  279,
+  396
+ ],
+ "r_si": 2,
+ "r_cont": [
+  929.6,
+  962.8,
+  229.4,
+  40
+ ],
+ "r_recap": [
+  501,
+  952.8,
+  375.1,
+  60
+ ],
+ "r_recapCard": [
+  441,
+  952.8,
+  718,
+  117
+ ],
+ "r_recapText": "VOTRE CRÉNEAU Mercredi 18 Novembre · 12 H 00 (heure de Toronto) avec EMMANUEL · 40 min · en visio (Zoom) · $20.00 USD",
+ "r_h": 1600,
+ "after_url": "https://www.formation-tcfcanada.com/connexion?redirect_url=%2Fexamen-oral%2Freserver%3Fslot%3D2026-11-18T17%253A00%253A00.000Z%26examinateur%3Duser_3J65dkN3h8TK7k7o3ujNg2BsxIZ",
+ "after_text": "Retour à l'accueil Vous n'avez pas encore de compte ? S'inscrire Mot de passe oublié ? Connexion sécurisée SSL Votre réussite au TCF Canada commence ici Compréhension écrite Expression écrite Compréhension orale Expression orale 25000+ utilisateurs 95% de réussite Voir le Tutoriel",
+ "t_exam": [
+  320,
+  687,
+  960,
+  144
+ ]
+}

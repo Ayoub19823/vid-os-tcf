@@ -21,7 +21,7 @@
   "Expliquer pourquoi vous l'admirez",
   "Garder le ton personnel d'un blog"
  ],
- "copie": "Bonjour à tous ! Aujourd'hui, je veux vous parler d'une femme que j'admire énormément : ma tante Zineb, infirmière à Casablanca. [[Depuis vingt ans, elle travaille dans un hôpital publique|Depuis vingt ans, elle travaille dans un hôpital public|« Hôpital » est masculin : « public », sans e]]. Chaque samedi, elle [[se rend dans les villages pour soigner gratuitement les personnes âgés|se rend dans les villages pour soigner gratuitement les personnes âgées|« Personne » est féminin : on accorde « âgées »]]. Pendant la pandémie, elle [[a resté|est restée|« Rester » se conjugue avec « être » : « est restée »]] à l'hôpital des semaines entières, loin de ses enfants. En plus, elle a créé une petite association qui aide les jeunes filles à continuer leurs études. Grâce à elle, plusieurs filles de notre quartier sont aujourd'hui à l'université. Je l'aime parce qu'elle est généreuse et [[elle ne se plaint jamais de rien|elle ne se plaint jamais|« ne… jamais » suffit : évitez la double négation lourde]], même quand elle est fatiguée. [[C'est elle qui m'a donné envie de devenir infirmier|C'est elle qui m'a donné envie de devenir infirmière|Khadija est une femme : « infirmière »]] au Canada. Et vous, quelle personne vous inspire ?",
+ "copie": "Bonjour à tous ! Aujourd'hui, je veux vous parler d'une femme que j'admire énormément : ma tante Zineb, infirmière à Casablanca. [[Depuis vingt ans, elle travaille dans un hôpital publique|Depuis vingt ans, elle travaille dans un hôpital public|« Hôpital » est masculin : « public », sans e]]. Chaque samedi, elle [[se rend dans les villages pour soigner gratuitement les personnes âgés|se rend dans les villages pour soigner gratuitement les personnes âgées|« Personne » est féminin : on accorde « âgées »]]. Pendant la pandémie, elle [[a resté|est restée|« Rester » se conjugue avec « être » : « est restée »]] à l'hôpital des semaines entières, loin de ses enfants. En plus, elle a créé une petite association qui aide les jeunes filles à continuer leurs études. Grâce à elle, plusieurs filles de notre quartier sont aujourd'hui à l'université. Je l'aime parce qu'elle est généreuse et qu'elle ne se plaint jamais, [[même si elle soit fatiguée|même si elle est fatiguée|Après « même si », on emploie l'indicatif, jamais le subjonctif]]. [[C'est elle qui m'a donné envie de devenir infirmier|C'est elle qui m'a donné envie de devenir infirmière|Khadija est une femme : « infirmière »]] au Canada. Et vous, quelle personne vous inspire ?",
  "modele": [
   [
    "Accroche",
@@ -49,7 +49,7 @@
   ],
   [
    "Conclusion",
-   "Pour moi, c'est un véritable modèle à suivre. Et vous, quelle personne vous inspire ? Dites-le-moi en commentaire !"
+   "Pour moi, c'est un véritable modèle à suivre, et je suis très fière d'elle. Et vous, quelle personne vous inspire ? Dites-le-moi en commentaire !"
   ]
  ],
  "vocab": [
@@ -73,7 +73,7 @@
    "À améliorer",
    [
     "Genre des noms : hôpital public, personnes âgées",
-    "« rester » avec l'auxiliaire « être »",
+    "« rester » avec « être » ; indicatif après « même si »",
     "Accord avec la personne qui écrit"
    ]
   ],
@@ -87,6 +87,6 @@
   ]
  ],
  "titre_court": "La personne que j'admire",
- "thumb": "UNE PERSONNE QUE J'ADMIRE|EXERCICE CORRIGÉ",
+ "thumb": "UNE PERSONNE QUE J’ADMIRE|EXERCICE CORRIGÉ",
  "prenom": "Khadija"
 }
